@@ -1,0 +1,7 @@
+<% if @users?.length : %>
+<% for user in @users : %><br/>
+<%= user.name %>
+<% end %>
+<% else : %>
+<p>Users is empty</p>
+<% end %>
